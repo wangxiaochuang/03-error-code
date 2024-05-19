@@ -1,5 +1,4 @@
 use error_code::ToErrorInfo;
-use std::str::FromStr;
 
 #[derive(Debug, thiserror::Error, ToErrorInfo)]
 #[error_info(app_type = "http::StatusCode", prefix = "01")]
